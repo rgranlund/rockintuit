@@ -5,7 +5,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-echo '<h1>HELLO WORLD</h1>';
+
+
+
 ?>
 <style>
     body {
