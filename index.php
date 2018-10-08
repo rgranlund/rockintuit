@@ -6,6 +6,7 @@
  * and open the template in the editor.
  * 
  * Third Commit
+ * 
 */
 ?>
 <style>
@@ -21,6 +22,7 @@
 	animation: beat .35s infinite alternate;
 	transform-origin: center;
 }
+
 
 /* Heart beat animation */
 @keyframes beat{
