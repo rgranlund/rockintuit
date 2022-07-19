@@ -1,0 +1,71 @@
+.ads-container {
+  width: 100%;
+  border: solid 1px #005d9a;
+}
+.ads-banner {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #005d9a;
+  text-align: center;
+  font-size: clamp(14px, 24px, 36px);
+  color: #434343;
+  color: #fff;
+}
+.ads-subtitle {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: clamp(12px, 16px, 22px);
+  color: #434343;
+}
+.ad-cont {
+  width: 100%;
+  min-height: 50px;
+  height: 100%;
+  overflow: hidden;
+  margin: 10px auto 25px;
+  padding: 0 15px;
+  clear: both;
+}
+.ad-cont a {
+  border: none;
+}
+.ad-cont a:hover {
+  cursor: pointer;
+}
+.ad-cont .ad-image {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.ad-cont .ad-image img {
+  border: none;
+  width: 70%;
+  height: auto;
+}
+.ad-cont .ad-title {
+  width: 80%;
+  float: right;
+  clear: right;
+  line-height: 18px;
+}
+.ad-cont .ad-title h2 {
+  color: #397296;
+  font-size: clamp(12px, 16px, 22px);
+  padding: 0;
+  margin: 0;
+}
+.ad-cont .ad-title span {
+  font-size: clamp(12px, 14px, 18px);
+  color: #434343;
+}
+.ad-tag {
+  width: 100%;
+  padding: 15px 25px;
+  font-style: italic;
+  text-align: center;
+  font-size: clamp(12px, 16px, 26px);
+  line-height: 20px;
+  color: #434343;
+}
