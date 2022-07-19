@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+}
+.products-reviews {
+  margin-bottom: 2.5%;
+  padding: 2.5% 0;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  height: 100%;
+  border-bottom: 1px solid gold;
+  border-top: 1px solid gold;
+}
+@media screen and (max-width: 667px) {
+  .products-reviews {
+    margin: 5% 0 15%;
+  }
+}
+
+.products-reviews li {
+  list-style: none;
+  text-align: center;
+}
+.products-reviews li .star-rating {
+  float: none;
+  text-align: center;
+  margin: 0 auto;
+}
